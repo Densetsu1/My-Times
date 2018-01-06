@@ -59,10 +59,6 @@ a{
   padding-top: 100px
 }
 
-div{
-  border: 1px solid black;
-}
-
 .column{
   display: flex;
   flex-direction: column;
@@ -147,9 +143,34 @@ h3{
 .news-bite{
   display: block;
   background-color: WhiteSmoke;
-  font-family: Verdana;
+  font-family: "Verdana", sans-serif;
   font-size: 12px;
   color: DimGray;
   border-bottom: 1px solid black;
   padding: 10px 10px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+}
+
+footer span{
+  display: inline-block;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav{
+  display: inline-block;
+  margin-left: 30px
 }
